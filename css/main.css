@@ -5,3 +5,11 @@ body {
 h1 {
   font-family: "Noto Sans Japanese", sans-serif;
 }
+
+.embed-banner {
+  padding-bottom: 20%;
+}
+
+.embed-image {
+  padding-bottom: 66.66%;
+}
