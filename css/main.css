@@ -1,9 +1,17 @@
-body {
-  font-family: 'Noto Sans', sans-serif;
+html {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
-h1 {
-  font-family: "Noto Sans Japanese", sans-serif;
+h2, h4, p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+li a {
+  color: #b64c6e;
+}
+
+li a:hover {
+  color: #860927;
 }
 
 .embed-banner {
@@ -12,4 +20,13 @@ h1 {
 
 .embed-image {
   padding-bottom: 66.66%;
+}
+
+.btn-ghost {
+  border-color: #b64c6e;
+}
+
+.btn-ghost:hover {
+  border-color: #860927;
+  background-color: #d89fb0;
 }
