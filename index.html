@@ -12,19 +12,21 @@
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
 </head>
 <body>
-  <header class="logo center-text pad-t-1-2 grid">
+  <header class="wrapper logo center-text pad-t-1-2 grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2">
       <h1 class="push-none yotta"><i class="not-italic" lang="ja">枯山水</i></h1>
-      <h2 class="giga kilo">Rock Gardens</h2>
+      <h2 class="giga kilo push-1-2">Rock Gardens</h2>
     </div>
 
-    <nav class="nav unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2">
-      <ul class="list-group list-group-inline push-none pad-t-1-4 push-1-2">
-        <li><a class="mega gutter-1-2" href="#viewing">Viewing</a></li>
-        <li><a class="mega gutter-1-2" href="#gravel">Gravel</a></li>
-        <li><a class="mega gutter-1-2" href="#symbolism">Symbolism</a></li>
-      </ul>
-    </nav>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 pad-t-1-2">
+      <nav class="nav">
+        <ul class="list-group list-group-inline push-none pad-t-1-4 push-1-2">
+          <li><a class="mega gutter-1-2" href="#viewing">Viewing</a></li>
+          <li><a class="mega gutter-1-2" href="#gravel">Gravel</a></li>
+          <li><a class="mega gutter-1-2" href="#symbolism">Symbolism</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="grid grid-stretch">
@@ -33,7 +35,7 @@
       <img class="img-flex push-2" src="images/banner.jpg" alt="">
     </section>
 
-    <section class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 text-center gutter push max-length">
+    <section class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 text-center gutter push wrapper">
       <div class="max-length">
         <hr class="rule">
         <h3 class="yotta not-bold push-1-2"><i class="not-italic" lang="ja">自然の親密な本質を模倣し、人生の真の意味を発見する。</i></h3>
@@ -77,7 +79,9 @@
           <h3 class="push-none exa"><i class="not-italic" lang="ja">象徴主義</i></h3>
           <h4 class="mega push-1-2">Symbolism</h4>
           <p class="content-fill push-1-2">In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-          <a class="content-shrink btn btn-ghost push" href="#">Learn more about Symbolism</a>
+          <div class="text-left">
+            <a class="content-shrink btn btn-ghost push" href="#">Learn more about Symbolism</a>
+          </div>
         </div>
       </div>
     </section>
