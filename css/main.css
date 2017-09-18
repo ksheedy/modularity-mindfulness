@@ -28,3 +28,8 @@ li a:hover {
   background-color: #d89fb0;
   color: #860927;
 }
+
+
+@media only screen and (min-width: 60em) {
+
+}
